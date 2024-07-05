@@ -1,0 +1,289 @@
+body {
+    font-family: "Kod";
+    background-color: #436850;
+    color: #ffffff;
+}
+
+.navbar {
+    color: black;
+}
+
+.navbar-brand img {
+    height: 90px;
+}
+
+.navbar-brand,
+.nav-link {
+    font-family: "Margin DEMO";
+    color: #FFF7EC;
+    font-size: 24px;
+    margin-right: 13px;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.white-navbar .nav-link {
+    color: black;
+}
+
+.contact-btn {
+    background-color: #f39227;
+    color: black;
+    font-size: 24px;
+    font-family: "Margin DEMO";
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+}
+
+.section-header {
+    font-size: 5rem;
+    font-family: "Margin DEMO";
+}
+
+.salut {
+    font-size: 5rem;
+    font-family: "Margin DEMO";
+}
+
+.contact {
+    font-family: "Margin DEMO";
+}
+
+.me {
+    margin-left: 15px;
+}
+
+.portfolio-section {
+    position: relative;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.portfolio-section img.background {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-section img.foreground {
+    position: absolute;
+    top: 4%;
+    left: 63.5%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 68%;
+}
+
+.circle-arrow {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #f39227;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid black;
+}
+
+.black-section {
+    background-color: #000;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: start;
+    z-index: 1;
+    margin-top: -72px;
+}
+
+.black-section p {
+    margin-left: 45px;
+    font-family: "Kod";
+}
+
+.white-section {
+    background-color: #FFF7EC;
+    color: #000000;
+    padding: 5rem 0;
+    position: relative;
+    text-align: start;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 0 10rem;
+    width: 850px;
+}
+
+.contact-info .contact-text {
+    margin-right: 20px;
+}
+
+.contact-info .contact-details {
+    position: absolute;
+    top: 610px;
+    left: 855px;
+    color: #FFF7EC;
+    padding: 20px;
+    text-align: center;
+    z-index: 20;
+}
+
+.contact-info .contact-text h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info .contact-text p {
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    padding: 1rem;
+}
+
+.btn-github {
+    background-color: #998675;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 9rem;
+    font-size: 1rem;
+}
+
+.experience,
+.projects,
+.skills {
+    margin: 2rem 0;
+}
+
+.skills .badge {
+    margin: 0.2rem;
+}
+
+.rectangle {
+    position: absolute;
+    top: 600px;
+    left: 820px;
+    width: 23.53%;
+    height: 170px;
+    background-color: black;
+    z-index: 10;
+}
+
+.rectangle-orange {
+    position: absolute;
+    top: 1800px;
+    left: 150px;
+    width: 38%;
+    height: 268px;
+    background-color: #f39227;
+    z-index: -1;
+}
+
+.rectangle3 {
+    position: absolute;
+    top: 2150px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #FFF7EC;
+    z-index: -1;
+}
+
+.resume-image {
+    position: absolute;
+    top: 150px;
+    left: 759px;
+    z-index: 15;
+    width: 400px;
+    height: auto;
+}
+
+.resume-text-image {
+    position: absolute;
+    top: 716px;
+    left: 790px;
+    z-index: 9;
+    width: 400px;
+    height: auto;
+}
+
+.lunette-image {
+    position: absolute;
+    top: 2060px;
+    left: 800px;
+    z-index: 9;
+    width: 400px;
+    height: auto;
+}
+
+.projects-skills-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.projects {
+    flex: 1;
+    margin-right: 2rem;
+    color: black;
+}
+
+.skills {
+    flex: 1;
+    margin-left: 8rem;
+
+}
+
+.skills .skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills .skills-category {
+    flex: 1;
+    text-align: center;
+}
+
+.skills .skills-category h3 {
+    font-family: "Margin DEMO";
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skills .badge {
+    display: inline-block;
+    margin: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: #FFF7EC;
+    color: #000;
+}
+
+.social-text {
+    position: absolute;
+    top: 246px;
+    left: 920px;
+    color: #FFF7EC;
+    font-family: "Margin DEMO";
+    font-size: 1.5rem;
+    z-index: 20;
+    text-align: left;
+}
